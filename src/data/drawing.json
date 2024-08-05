@@ -1,0 +1,160 @@
+{
+  "header": "Drawing",
+  "type": "visual",
+  "items": [
+    {
+      "title": "Couch",
+      "img_path": "/drawing_painting/couch/couch1.jpg",
+      "img_set": [
+        {
+          "img_path": "/drawing_painting/couch/couch1.jpg",
+          "title": "Couch #1",
+          "materials": "Colored pencil",
+          "year": 2020
+        }
+      ],
+      "year": 2020,
+      "materials": "Colored pencil"
+    },
+    {
+      "img_path": "/drawing_painting/couch/couch2.jpg",
+      "title": "Couch #2",
+      "materials": "Colored pencil",
+      "year": 2020
+    },
+    {
+      "title": "Fruit in Bra",
+      "img_path": "/drawing_painting/fruitbra1.jpg",
+      "dimensions": "",
+      "year": 2016,
+      "materials": "Chalk pastel"
+    },
+    {
+      "title": "Fruit in Bra II",
+      "img_path": "/drawing_painting/fruit_bra_2.jpg",
+      "dimensions": "",
+      "year": 2021,
+      "materials": "Colored pencil"
+    },
+    {
+      "title": "Fruit in Bra III",
+      "img_path": "/drawing_painting/fruitbra3.jpg",
+      "dimensions": "",
+      "year": 2021,
+      "materials": "Colored pencil"
+    },
+    {
+      "title": "Hydrangeas",
+      "img_path": "/drawing_painting/the_hydrangeas_have_eyes.jpg"
+    },
+    {
+      "title": "Stones",
+      "img_path": "/drawing_painting/stones.jpg"
+    },
+    {
+      "title": "Discus",
+      "img_path": "/drawing_painting/discus.jpg"
+    },
+    {
+      "title": "Botanicals",
+      "img_path": "/drawing_painting/botanicals/bot1.jpg",
+      "img_sets": [
+        {
+          "title": "Botanical 1",
+          "img_path": "/drawing_painting/bot1.jpg",
+          "dimensions": "",
+          "year": 2022,
+          "materials": "Colored pencil and acrylic paint"
+        }
+      ]
+    },
+    {
+      "title": "Botanical 2",
+      "img_path": "/drawing_painting/botanicals/bot2.jpg",
+      "dimensions": "",
+      "year": 2022,
+      "materials": "Colored pencil and acrylic paint"
+    },
+    {
+      "title": "Botanical 3",
+      "img_path": "/drawing_painting/botanicals/bot3.jpg",
+      "dimensions": "",
+      "year": 2022,
+      "materials": "Colored pencil and acrylic paint"
+    },
+    {
+      "title": "Roses Study",
+      "img_path": "/drawing_painting/roses_study.jpg",
+      "dimensions": "",
+      "year": 2023,
+      "materials": "Colored pencil"
+    },
+    {
+      "title": "Salvaged splatters",
+      "img_path": "/drawing_painting/salvaged_gold_splatters.jpg",
+      "materials": "Oil paint, colored pencil",
+      "year": 2022
+    },
+    {
+      "title": "Underpants in Space",
+      "img_path": "/drawing_painting/underpants_in_space.jpg",
+      "materials": "Oil paint",
+      "year": 2022
+    },
+    {
+      "title": "Untitled (Ravine)",
+      "img_path": "/drawing_painting/ravine.jpg",
+      "dimensions": "",
+      "year": 2023,
+      "materials": "Acrylic"
+    },
+    {
+      "title": "Year of the Scabby",
+      "img_path": "/drawing_painting/rat.jpg",
+      "year": 2019,
+      "materials": "Chalk pastel"
+    },
+    {
+      "title": "",
+      "img_path": "/drawing_painting/greypainting.jpg",
+      "dimensions": "",
+      "year": 2019,
+      "materials": "Oil"
+    },
+    {
+      "title": "Accidental Cyberpic",
+      "img_path": "/drawing_painting/accidental_cyberpic.jpg",
+      "dimensions": "",
+      "year": 2023,
+      "materials": "Acrylic"
+    },
+    {
+      "title": "Dwelling",
+      "img_path": "/drawing_painting/Painting.jpg",
+      "dimensions": "",
+      "year": 2014,
+      "materials": "Oil"
+    },
+    {
+      "title": "Assembly Line",
+      "img_path": "/drawing_painting/assembly_line.jpg",
+      "dimensions": "",
+      "year": 2015,
+      "materials": "Powdered graphite, ink, oil pastel"
+    },
+    {
+      "title": "Spools",
+      "img_path": "/drawing_painting/spools.jpg",
+      "dimensions": "",
+      "year": 2016,
+      "materials": "Oil"
+    },
+    {
+      "title": "Oil Sketchbook",
+      "img_path": "/drawing_painting/comp_paint1.jpg",
+      "dimensions": "",
+      "year": 2020,
+      "materials": "Oil"
+    }
+  ]
+}

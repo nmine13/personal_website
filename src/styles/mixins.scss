@@ -1,0 +1,43 @@
+@mixin flexbox($direction, $justification, $alignment) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justification;
+  align-items: $alignment;
+}
+
+@mixin makeSquare() {
+  &:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+  }
+}
+@mixin breakpoint($point) {
+  $bp-site-width: '(max-width: 1030px)';
+  $bp-tablet-landscape: '(max-width: 900px)';
+  $bp-tablet-portrait: '(max-width: 750px)';
+  $bp-mobile: '(max-width: 550px)';
+  $bp-tiny-mobile: '(max-width: 400px)';
+
+  @if $point == site-width {
+    @media only screen and #{$bp-site-width} {
+      @content;
+    }
+  } @else if $point == tablet-landscape {
+    @media only screen and #{$bp-tablet-landscape} {
+      @content;
+    }
+  } @else if $point == tablet-portrait {
+    @media only screen and #{$bp-tablet-portrait} {
+      @content;
+    }
+  } @else if $point == mobile {
+    @media only screen and #{$bp-mobile} {
+      @content;
+    }
+  } @else if $point == tiny-mobile {
+    @media only screen and #{$bp-tiny-mobile} {
+      @content;
+    }
+  }
+}

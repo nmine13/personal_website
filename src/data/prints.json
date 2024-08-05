@@ -1,0 +1,44 @@
+{
+  "header": "Prints",
+  "type": "visual",
+  "items": [
+    {
+      "title": "Blanket",
+      "img_path": "/prints/blanket.jpg",
+      "year": 2021,
+      "materials": "Ink"
+    },
+    {
+      "title": "Stained Glass",
+      "img_path": "/prints/stained_glass_print.jpg",
+      "year": 2023,
+      "materials": "Ink"
+    },
+    {
+      "title": "Spine series",
+      "img_path": "/prints/spinal_destination.jpg",
+      "dimensions": "",
+      "year": 2021,
+      "materials": "Ink"
+    },
+    {
+      "title": "Conservatory",
+      "img_path": "/prints/conservatory.jpg",
+      "dimensions": "",
+      "year": 2021,
+      "materials": "Ink"
+    },
+    {
+      "title": "Vermont",
+      "img_path": "/prints/vermont.jpg",
+      "year": 2022,
+      "materials": "Ink"
+    },
+    {
+      "title": "Atwood",
+      "img_path": "/prints/winter_atwood.jpg",
+      "year": 2024,
+      "materials": "Ink"
+    }
+  ]
+}

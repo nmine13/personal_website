@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": 2,
+      "title": "Sensible",
+      "path": "/audio/sensible.m4a",
+      "text": "Lyrics, instrumentals, production by Max Snyder. Vocals by Naomi Mine."
+    },
+    {
+      "id": 1,
+      "title": "August",
+      "path": "/audio/august.mp3",
+      "text": "Lyrics, instrumentals, production by Max Snyder. Vocals by Naomi Mine."
+    },
+    {
+      "id": 3,
+      "title": "Golden Bird",
+      "path": "/audio/golden_bird.m4a",
+      "text": "Partial rendition of Levon Helm's Golden Bird. Inspired by the arrangement in https://www.youtube.com/watch?v=XHd9f2KPKlg"
+    }
+  ]
+}
