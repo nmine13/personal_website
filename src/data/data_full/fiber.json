@@ -15,6 +15,18 @@
       "year": ""
     },
     {
+      "img_path": "/fiber/funfan.jpg",
+      "title": "funfan",
+      "materials": "",
+      "year": ""
+    },
+    {
+      "img_path": "/fiber/geometric_shiboris.jpg",
+      "title": "Geometric",
+      "materials": "",
+      "year": ""
+    },
+    {
       "img_path": "/fiber/kanzashi_golden.jpg",
       "title": "Kanzashi 1",
       "materials": "",
@@ -33,8 +45,32 @@
       "year": ""
     },
     {
+      "img_path": "/fiber/polygons_n_mirrors.jpg",
+      "title": "Polygons n mirrors",
+      "materials": "",
+      "year": ""
+    },
+    {
       "img_path": "/fiber/ruth_embroidery.jpg",
       "title": "For Ruth",
+      "materials": "",
+      "year": ""
+    },
+    {
+      "img_path": "/fiber/shibori_dental.jpg",
+      "title": "Dental",
+      "materials": "",
+      "year": ""
+    },
+    {
+      "img_path": "/fiber/shibori_lightning.jpg",
+      "title": "Lightning",
+      "materials": "",
+      "year": ""
+    },
+    {
+      "img_path": "/fiber/shibori_n.jpg",
+      "title": "Nnnnn",
       "materials": "",
       "year": ""
     }

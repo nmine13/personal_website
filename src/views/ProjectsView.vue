@@ -4,9 +4,17 @@
 // - add modal
 // - correct image information
 // - trim or regroup
+// - figure out how to activate packery only after images have loaded
+// - ADD AN ARTIST STATEMENT
+// - Identify thematic collections
+// - Add digital and video section -- if i can't compress vids, use stills
+// - Current projects section
 
 import ProjectNavMenu from '../components/ProjectNavMenu.vue'
 import ProjectsLanding from './ProjectsLanding.vue'
+import StatementComponent from '@/components/StatementComponent.vue';
+import ModalView from './ModalView.vue';
+
 import { useProjectStore } from '@/stores/project';
 import { watch, onMounted, onUpdated } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
@@ -52,7 +60,14 @@ watch(
     }
 )
 
-// do without setting timeouts -- try imagesloaded package previously used or something else 
+// TODO: do without setting timeouts -- try imagesloaded package previously used or something else 
+
+const initializePackery = () => {
+    setTimeout(() => {
+        let imgContainer = document.querySelector('.images-wrapper');
+        initPackery(imgContainer) // TODO: do I need to initialize it every time or is there a pckery update method?
+    }, "1000");
+}
 
 onMounted(async () => {
     await router.isReady()
@@ -62,29 +77,32 @@ onMounted(async () => {
     if (route.hash !== "#") {
         changeCategory(route.hash.substring(1))
     }
-    setTimeout(() => {
-        let imgContainer = document.querySelector('.images-wrapper');
-        initPackery(imgContainer)
-        console.log(store.activeCatDetails, 'ACTIVE')
-    }, "2000");
+    initializePackery();
 })
 
 onUpdated(async () => {
     await router.isReady()
-    console.log("UODATE")
-    setTimeout(() => {
-        let imgContainer = document.querySelector('.images-wrapper');
-        initPackery(imgContainer)
-        console.log(store.activeCatDetails, 'ACTIVE')
-    }, "2000");
+    initializePackery();
 })
 
 </script>
 
 <template>
     <main>
-        <div>{{ store.activeCat }}</div>
-        <ProjectNavMenu :activeCat=store.activeCat />
-        <ProjectsLanding :projectType=store.activeType :projectCat=store.activeCat :catDetails=store.activeCatDetails />
+        <StatementComponent />
+        <div class="projects-wrapper">
+            <ProjectNavMenu :activeCat=store.activeCat />
+            <ProjectsLanding :projectType=store.activeType :projectCat=store.activeCat
+                :catDetails=store.activeCatDetails />
+        </div>
+        <ModalView v-if="store.modalOpen" />
     </main>
 </template>
+
+<style scoped lang="scss">
+.projects {
+    &-wrapper {
+        display: flex;
+    }
+}
+</style>

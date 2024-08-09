@@ -3,7 +3,9 @@
 import ProjectItem from '../components/ProjectItem.vue'
 import MusicView from '../components/MusicView.vue'
 import VideoView from '../components/VideoView.vue'
+import { useProjectStore } from '@/stores/project';
 
+const store = useProjectStore();
 
 export default {
     name: 'ProjectsLanding',
@@ -18,6 +20,12 @@ export default {
         VideoView
     },
     methods: {
+        openModal: (item) => {
+            const images = 'img_set' in item ? item.img_set : [item]
+            document.querySelector('body').style.overflow = 'hidden'
+            store.activateImages(images)
+            store.toggleModalOpen()
+        }
     }
 }
 
@@ -25,16 +33,15 @@ export default {
 </script>
 
 <template>
-    <div> {{ projectCat }}</div>
     <div class="images-wrapper">
         <div v-if="projectType === 'music'">
             <MusicView :audioData=catDetails />
         </div>
-        <div v-if="projectType === 'visual'">
-            <div class="projects-artThumbnails images-item" v-for="item in catDetails" :key="item.img_path">
-                <ProjectItem :item=item />
-            </div>
+        <!-- <div v-if="projectType === 'visual'"> -->
+        <div class="projects-artThumbnails images-item" v-for="item in catDetails" :key="item.img_path">
+            <ProjectItem v-on:click="openModal(item)" :item=item />
         </div>
+        <!-- </div> -->
         <div v-if="projectType === 'video'">
             <VideoView />
         </div>
@@ -47,6 +54,10 @@ export default {
     &-artThumbnail {
         display: flex;
     }
+}
+
+.images-wrapper {
+    width: 75%;
 }
 
 /* @import '../assets/styles/main.scss'; */

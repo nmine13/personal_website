@@ -3,13 +3,6 @@
   "type": "visual",
   "items": [
     {
-      "title": "Untitled",
-      "img_path": "/collage/bejeweled.jpg",
-      "dimensions": "",
-      "year": 2023,
-      "materials": "Magazine clippings, ink"
-    },
-    {
       "title": "Beach",
       "img_path": "/collage/Beach.jpg",
       "year": 2017,
@@ -20,12 +13,6 @@
       "img_path": "/collage/glowing_cavern.jpg",
       "materials": "Magazine clippings",
       "year": 2019
-    },
-    {
-      "title": "",
-      "img_path": "/collage/fabric_collage.jpg",
-      "materials": "Upholstery swatch, shells, beads",
-      "year": 2018
     },
     {
       "img_path": "/collage/papercuts/sushi.jpg",
@@ -42,104 +29,9 @@
       "dimensions": ""
     },
     {
-      "img_path": "/collage/papercuts/beauty_regimen.jpg",
-      "title": "Papercuts: Beauty Regimen",
-      "materials": "Magazine clippings, gift wrap",
-      "year": 2018,
-      "dimensions": ""
-    },
-    {
-      "title": "Papercuts",
-      "img_path": "/collage/papercuts/seahorse.jpg",
-      "img_set": [
-        {
-          "img_path": "collage/papercuts/seahorse.jpg",
-          "title": "Papercuts: Seahorse",
-          "materials": "Magazine clippings, gift wrap",
-          "year": 2018,
-          "dimensions": ""
-        },
-        {
-          "img_path": "collage/papercuts/princess.jpg",
-          "title": "Papercuts: Princess",
-          "materials": "Magazine clippings, gift wrap",
-          "year": 2018,
-          "dimensions": ""
-        },
-        {
-          "img_path": "collage/papercuts/sushi.jpg",
-          "title": "Papercuts: Snack",
-          "materials": "Magazine clippings, gift wrap",
-          "year": 2018,
-          "dimensions": ""
-        },
-        {
-          "img_path": "collage/papercuts/downtown.jpg",
-          "title": "Papercuts: Downtown",
-          "materials": "Magazine clippings, gift wrap",
-          "year": 2018,
-          "dimensions": ""
-        },
-        {
-          "img_path": "collage/papercuts/potato_head.jpg",
-          "title": "Papercuts: Potato Head",
-          "materials": "Magazine clippings, gift wrap",
-          "year": 2018,
-          "dimensions": ""
-        },
-        {
-          "img_path": "collage/papercuts/beauty_regimen.jpg",
-          "title": "Papercuts: Beauty Regimen",
-          "materials": "Magazine clippings, gift wrap",
-          "year": 2018,
-          "dimensions": ""
-        }
-      ]
-    },
-    {
       "title": "Abyss",
       "img_path": "collage/Abyss.jpg",
       "year": 2016,
-      "materials": "Magazine clippings"
-    },
-    {
-      "title": "Year of the Ox",
-      "img_path": "collage/ox.jpg",
-      "description": "",
-      "dimensions": "",
-      "year": 2020,
-      "materials": "Magazine clippings, pen"
-    },
-    {
-      "title": "Caterpillar",
-      "img_path": "collage/caterpillar.jpg",
-      "year": 2017,
-      "materials": "Magazine clippings"
-    },
-    {
-      "title": "Mickey",
-      "img_path": "collage/mickey.jpg",
-      "year": 2017,
-      "materials": "Magazine clippings"
-    },
-    {
-      "title": "Bridesmaids from hell",
-      "img_path": "/collage/bridesmaids_from_hell.jpg",
-      "materials": "Magazine clippings",
-      "year": 2018
-    },
-    {
-      "title": "Cornucopia",
-      "img_path": "collage/fruit_collage.jpg",
-      "dimensions": "",
-      "year": 2020,
-      "materials": "Catalog clippings, ink, colored pencil"
-    },
-    {
-      "title": "Fan",
-      "img_path": "/collage/fan.jpg",
-      "dimensions": "",
-      "year": 2020,
       "materials": "Magazine clippings"
     }
   ]

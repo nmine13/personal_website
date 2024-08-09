@@ -11,6 +11,9 @@ export const useProjectStore = defineStore('project', () => {
   const activeCat = ref('drawings')
   const activeType = ref('visual')
   const activeCatDetails = ref(drawPaintData.items)
+  const modalOpen = ref(false)
+  const activeImages = ref([]) // for modal
+
   console.log(activeCatDetails, 'ACTIVE')
 
   function activateProjectCategory(cat) {
@@ -39,5 +42,27 @@ export const useProjectStore = defineStore('project', () => {
     }
   }
 
-  return { activeCat, activateProjectCategory, activeCatDetails, activeType }
+  function toggleModalOpen() {
+    modalOpen.value = !modalOpen.value
+  }
+
+  function activateImages(images) {
+    activeImages.value = images
+  }
+
+  function deactivateImages() {
+    activeImages.value = []
+  }
+
+  return {
+    activeCat,
+    activateProjectCategory,
+    activeCatDetails,
+    activeType,
+    activeImages,
+    toggleModalOpen,
+    activateImages,
+    deactivateImages,
+    modalOpen
+  }
 })

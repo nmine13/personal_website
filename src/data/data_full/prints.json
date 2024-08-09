@@ -20,6 +20,25 @@
       "dimensions": "",
       "year": 2021,
       "materials": "Ink"
+    },
+    {
+      "title": "Conservatory",
+      "img_path": "/prints/conservatory.jpg",
+      "dimensions": "",
+      "year": 2021,
+      "materials": "Ink"
+    },
+    {
+      "title": "Vermont",
+      "img_path": "/prints/vermont.jpg",
+      "year": 2022,
+      "materials": "Ink"
+    },
+    {
+      "title": "Atwood",
+      "img_path": "/prints/winter_atwood.jpg",
+      "year": 2024,
+      "materials": "Ink"
     }
   ]
 }

@@ -25,6 +25,30 @@
       "title": "Flower 1",
       "materials": "Organic and synthetic plant material",
       "year": 2023
+    },
+    {
+      "img_path": "/florals/Flower2.jpg",
+      "title": "Flower 2",
+      "materials": "Organic and synthetic plant material",
+      "year": 2023
+    },
+    {
+      "img_path": "/florals/Flower3.jpg",
+      "title": "Flower 3",
+      "materials": "Organic and synthetic plant material",
+      "year": 2023
+    },
+    {
+      "img_path": "/florals/Flower4.jpg",
+      "title": "Flower 4",
+      "materials": "Organic and synthetic plant material",
+      "year": 2023
+    },
+    {
+      "img_path": "/florals/minimalist_arrangement.jpg",
+      "title": "Minimalist",
+      "materials": "Live flowers, vessels",
+      "year": 2023
     }
   ]
 }

@@ -11,7 +11,6 @@ export default {
 </script>
 
 <template>
-    <div>{{ item.title }}</div>
     <img :src="item.img_path" width="300" />
 </template>
 
