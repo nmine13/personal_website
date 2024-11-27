@@ -1,0 +1,48 @@
+{
+  "header": "Flora",
+  "type": "visual",
+  "items": [
+    {
+      "img_path": "/plants/alex_bday_arrangement.jpg",
+      "title": "Alex's Birthday",
+      "materials": "Live flowers, vessels",
+      "year": 2023
+    },
+    {
+      "img_path": "/plants/constellation_gradient.jpg",
+      "title": "Constellation",
+      "materials": "Live flowers, vessels",
+      "year": 2023
+    },
+    {
+      "img_path": "/plants/evening_flowers.jpg",
+      "title": "Evening",
+      "materials": "Live flowers, vessels",
+      "year": 2023
+    },
+    {
+      "img_path": "/plants/Flower1.jpg",
+      "title": "Flower 1",
+      "materials": "Organic and synthetic plant material",
+      "year": 2023
+    },
+    {
+      "img_path": "/plants/Forest1.jpg",
+      "title": "Forest",
+      "materials": "Organic and synthetic plant material",
+      "year": 2017
+    },
+    {
+      "img_path": "/plants/minimalist_arrangement.jpg",
+      "title": "Minimalist",
+      "materials": "Live flowers, vessels",
+      "year": 2023
+    },
+    {
+      "img_path": "/plants/kanzashi_golden.jpg",
+      "title": "Kanzashi",
+      "materials": "Fabric, hair comb, twigs",
+      "year": 2023
+    }
+  ]
+}

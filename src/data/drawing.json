@@ -4,33 +4,47 @@
   "items": [
     {
       "title": "Couch",
-      "img_path": "/drawing_painting/couch/couch1.jpg",
+      "img_path": "/drawing/couch1.jpg",
       "year": 2020,
       "materials": "Colored pencil"
     },
     {
-      "img_path": "/drawing_painting/couch/couch2.jpg",
-      "title": "Couch #2",
-      "materials": "Colored pencil",
-      "year": 2020
+      "title": "Attempted Regrowth",
+      "img_path": "/drawing/attempted_regrowth.jpg",
+      "year": 2024,
+      "materials": "Colored pencil, synthetic vellum, ink"
     },
     {
-      "title": "Fruit in Bra",
-      "img_path": "/drawing_painting/fruitbra1.jpg",
+      "title": "Botanical 1",
+      "img_path": "/drawing/bot1.jpg",
       "dimensions": "",
-      "year": 2016,
-      "materials": "Chalk pastel"
+      "year": 2022,
+      "materials": "Colored pencil and acrylic paint"
+    },
+    {
+      "title": "Roses Study",
+      "img_path": "/drawing/roses_study.jpg",
+      "dimensions": "",
+      "year": 2023,
+      "materials": "Colored pencil"
+    },
+    {
+      "title": "Fruit in Bra II",
+      "img_path": "/drawing/fruit_bra_2.jpg",
+      "dimensions": "",
+      "year": 2021,
+      "materials": "Colored pencil"
+    },
+    {
+      "title": "Botanical 3",
+      "img_path": "/drawing/bot3.jpg",
+      "dimensions": "",
+      "year": 2022,
+      "materials": "Colored pencil and acrylic paint"
     },
     {
       "title": "Hydrangeas",
-      "img_path": "/drawing_painting/the_hydrangeas_have_eyes.jpg"
-    },
-    {
-      "title": "Accidental Cyberpic",
-      "img_path": "/drawing_painting/accidental_cyberpic.jpg",
-      "dimensions": "",
-      "year": 2023,
-      "materials": "Acrylic"
+      "img_path": "/drawing/the_hydrangeas_have_eyes.jpg"
     }
   ]
 }

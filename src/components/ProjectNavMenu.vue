@@ -10,21 +10,25 @@ export default {
 <template>
     <div class="project-nav">
         <div class="project-category">
-            <router-link :to="{ hash: '#drawings' }" v-bind:class="{ activeCat: activeCat === 'drawings' }">drawing &
-                painting</router-link>
+            <router-link :to="{ hash: '#drawings' }"
+                v-bind:class="{ activeCat: activeCat === 'drawings' }">drawings</router-link>
+        </div>
+        <div class="project-category">
+            <router-link :to="{ hash: '#paintings' }"
+                v-bind:class="{ activeCat: activeCat === 'paintings' }">paintings</router-link>
         </div>
         <div class="project-category">
             <router-link :to="{ hash: '#collage' }" v-bind:class="{ activeCat: activeCat === 'collage' }">
-                mixed media</router-link>
+                collage</router-link>
         </div>
         <div class="project-category">
             <router-link :to="{ hash: '#plants' }"
                 v-bind:class="{ activeCat: activeCat === 'plants' }">plants</router-link>
         </div>
-        <div class="project-category">
+        <!-- <div class="project-category">
             <router-link :to="{ hash: '#fabric' }" v-bind:class="{ activeCat: activeCat === 'fabric' }">textile &
                 fiber</router-link>
-        </div>
+        </div> -->
         <div class="project-category">
             <router-link :to="{ hash: '#prints' }"
                 v-bind:class="{ activeCat: activeCat === 'prints' }">prints</router-link>
@@ -33,10 +37,10 @@ export default {
             <router-link :to="{ hash: '#music' }"
                 v-bind:class="{ activeCat: activeCat === 'music' }">music</router-link>
         </div>
-        <div class="project-category">
+        <!-- <div class="project-category">
             <router-link :to="{ hash: '#video' }"
                 v-bind:class="{ activeCat: activeCat === 'video' }">video</router-link>
-        </div>
+        </div> -->
     </div>
 </template>
 

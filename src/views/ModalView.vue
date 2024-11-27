@@ -36,7 +36,6 @@ const closeModal = (e) => {
     ) {
         return;
     }
-    console.log("lalas")
     document.querySelector("body").style.overflow = "auto";
     store.deactivateImages()
     store.toggleModalOpen()

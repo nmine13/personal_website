@@ -9,28 +9,50 @@
       "materials": "Magazine clippings, photographs"
     },
     {
-      "title": "Swimming hole",
-      "img_path": "/collage/glowing_cavern.jpg",
-      "materials": "Magazine clippings",
-      "year": 2019
-    },
-    {
-      "img_path": "/collage/papercuts/sushi.jpg",
-      "title": "Papercuts: Snack",
-      "materials": "Magazine clippings, gift wrap",
-      "year": 2018,
-      "dimensions": ""
-    },
-    {
-      "img_path": "collage/papercuts/downtown.jpg",
+      "img_path": "/collage/downtown.jpg",
       "title": "Papercuts: Downtown",
       "materials": "Magazine clippings, gift wrap",
       "year": 2018,
       "dimensions": ""
     },
     {
+      "img_path": "/collage/bridesmaids_from_hell.jpg",
+      "title": "Bridesmaids from hell",
+      "materials": "Magazine clippings, gift wrap",
+      "year": 2018,
+      "dimensions": ""
+    },
+    {
+      "img_path": "/collage/ox.jpg",
+      "title": "Ox",
+      "materials": "Magazine clippings, gift wrap",
+      "year": 2018,
+      "dimensions": ""
+    },
+    {
+      "img_path": "/collage/caterpillar.jpg",
+      "title": "Caterpillar",
+      "materials": "Magazine clippings, gift wrap",
+      "year": 2018,
+      "dimensions": ""
+    },
+    {
+      "img_path": "/collage/seahorse.jpg",
+      "title": "Seahorse",
+      "materials": "Magazine clippings, gift wrap",
+      "year": 2018,
+      "dimensions": ""
+    },
+    {
+      "img_path": "/collage/skyscraping.jpg",
+      "title": "Skyscraping",
+      "materials": "Magazine clippings, gift wrap",
+      "year": 2018,
+      "dimensions": ""
+    },
+    {
       "title": "Abyss",
-      "img_path": "collage/Abyss.jpg",
+      "img_path": "/collage/Abyss.jpg",
       "year": 2016,
       "materials": "Magazine clippings"
     }

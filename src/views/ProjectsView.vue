@@ -1,18 +1,7 @@
 <script setup>
-
-// TO DO:
-// - add modal
-// - correct image information
-// - trim or regroup
-// - figure out how to activate packery only after images have loaded
-// - ADD AN ARTIST STATEMENT
-// - Identify thematic collections
-// - Add digital and video section -- if i can't compress vids, use stills
-// - Current projects section
-
 import ProjectNavMenu from '../components/ProjectNavMenu.vue'
 import ProjectsLanding from './ProjectsLanding.vue'
-import StatementComponent from '@/components/StatementComponent.vue';
+// import StatementComponent from '@/components/StatementComponent.vue';
 import ModalView from './ModalView.vue';
 
 import { useProjectStore } from '@/stores/project';
@@ -27,13 +16,14 @@ const store = useProjectStore();
 
 const changeCategory = (cat) => {
     store.activateProjectCategory(cat)
+    console.log(store.activeCat, "store")
     return
 }
 const getGutter = () => {
     if (window.innerWidth <= 900) {
         return 10
     }
-    return 20
+    return 25
 }
 const packeryObj = (imgContainer) => {
     return new Packery(imgContainer, {
@@ -46,21 +36,22 @@ const initPackery = (container) => {
     self.pckry = pckry
 }
 
+const setArtCategory = () => {
+    // look in docs -- might be a way to do this automatically
+    if (route.fullPath === '/projects') {
+        router.push({ hash: '#drawings' })
+    }
+    if (route.hash !== "#") {
+        changeCategory(route.hash.substring(1))
+    }
+}
+
 watch(
     () => route.hash,
     () => {
-        // look in docs -- might be a way to do this automatically
-        if (route.fullPath === '/projects') {
-            router.push({ hash: '#drawings' })
-        }
-        if (route.hash !== "#") {
-            changeCategory(route.hash.substring(1))
-        }
-
+        setArtCategory();
     }
 )
-
-// TODO: do without setting timeouts -- try imagesloaded package previously used or something else 
 
 const initializePackery = () => {
     setTimeout(() => {
@@ -71,12 +62,7 @@ const initializePackery = () => {
 
 onMounted(async () => {
     await router.isReady()
-    if (route.fullPath === '/projects') {
-        router.push({ hash: '#drawings' })
-    }
-    if (route.hash !== "#") {
-        changeCategory(route.hash.substring(1))
-    }
+    setArtCategory();
     initializePackery();
 })
 
@@ -89,7 +75,7 @@ onUpdated(async () => {
 
 <template>
     <main>
-        <StatementComponent />
+        <!-- <StatementComponent /> -->
         <div class="projects-wrapper">
             <ProjectNavMenu :activeCat=store.activeCat />
             <ProjectsLanding :projectType=store.activeType :projectCat=store.activeCat
@@ -106,3 +92,18 @@ onUpdated(async () => {
     }
 }
 </style>
+
+
+
+// TO DO:
+// - add modal
+// - correct image information
+// - trim or regroup
+// - figure out how to activate packery only after images have loaded
+// - ADD AN ARTIST STATEMENT
+// - Identify thematic collections
+// - Add digital and video section -- if i can't compress vids, use stills
+// - Current projects section
+// - sketchbook?
+
+// TODO: do without setting timeouts -- try imagesloaded package previously used or something else

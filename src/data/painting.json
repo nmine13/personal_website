@@ -1,0 +1,41 @@
+{
+  "header": "Drawing",
+  "type": "visual",
+  "items": [
+    {
+      "title": "Ravine",
+      "img_path": "/painting/ravine.jpg",
+      "dimensions": "",
+      "year": 2023,
+      "materials": "Acrylic"
+    },
+    {
+      "title": "Accidental Cyberpic",
+      "img_path": "/painting/accidental_cyberpic.jpg",
+      "dimensions": "",
+      "year": 2023,
+      "materials": "Acrylic"
+    },
+    {
+      "title": "Wood Painting",
+      "img_path": "/painting/wood_painting.jpg",
+      "dimensions": "",
+      "year": 2023,
+      "materials": "Acrylic"
+    },
+    {
+      "title": "Space Shroud",
+      "img_path": "/painting/space_shroud.jpg",
+      "dimensions": "",
+      "year": 2023,
+      "materials": "Acrylic"
+    },
+    {
+      "title": "Gray painting",
+      "img_path": "/painting/greypainting.jpg",
+      "dimensions": "",
+      "year": 2023,
+      "materials": "Acrylic"
+    }
+  ]
+}

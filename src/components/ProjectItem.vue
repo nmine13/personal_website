@@ -6,12 +6,17 @@ export default {
             title: String,
             img_path: String,
         },
-    },
+    }
 }
 </script>
 
 <template>
-    <img :src="item.img_path" width="300" />
+    <!-- <img :src="'compressed/' + item.img_path" width="300" /> -->
+    <img :src="'compressed' + item.img_path" width="300" />
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+img {
+    cursor: pointer;
+}
+</style>
