@@ -26,7 +26,7 @@ const getImageSource = () => {
     if (store.activeImages.length > 0) {
         // let img = "../../assets/images/art/" +
 
-        return store.activeImages[0].img_path;
+        return store.activeImages[0];
     }
 }
 const closeModal = (e) => {
@@ -52,7 +52,12 @@ const closeModal = (e) => {
         <div class="modal-content" v-on:click="closeModal">
             <!-- <carousel-wrapper v-if="showCarousel"></carousel-wrapper> -->
             <!-- <div class="modal-content-item" v-else> -->
-            <img class="modal-image" alt="" :src="getImageSource()" />
+            <div class="modal-content-wrapper">
+                <img class="modal-image" alt="" :src="getImageSource().img_path" />
+                <div>{{ getImageSource().title }}</div>
+                <div>{{ getImageSource().materials }}</div>
+            </div>
+
             <!-- <div class="modal-image-details">
                 <div class="modal-image-title">
                     {{ getImageInfo.title !== "" ? getImageInfo.title : untitled }}

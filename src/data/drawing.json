@@ -3,7 +3,7 @@
   "type": "visual",
   "items": [
     {
-      "title": "Couch",
+      "title": "My Ex's Couch",
       "img_path": "/drawing/couch1.jpg",
       "year": 2020,
       "materials": "Colored pencil"
@@ -15,18 +15,18 @@
       "materials": "Colored pencil, synthetic vellum, ink"
     },
     {
-      "title": "Botanical 1",
+      "title": "Botanical I",
       "img_path": "/drawing/bot1.jpg",
       "dimensions": "",
       "year": 2022,
-      "materials": "Colored pencil and acrylic paint"
+      "materials": "Colored pencil"
     },
     {
       "title": "Roses Study",
       "img_path": "/drawing/roses_study.jpg",
       "dimensions": "",
       "year": 2023,
-      "materials": "Colored pencil"
+      "materials": "Colored pencil, ink"
     },
     {
       "title": "Fruit in Bra II",
@@ -36,7 +36,7 @@
       "materials": "Colored pencil"
     },
     {
-      "title": "Botanical 3",
+      "title": "Botanical III",
       "img_path": "/drawing/bot3.jpg",
       "dimensions": "",
       "year": 2022,
@@ -44,7 +44,8 @@
     },
     {
       "title": "Hydrangeas",
-      "img_path": "/drawing/the_hydrangeas_have_eyes.jpg"
+      "img_path": "/drawing/the_hydrangeas_have_eyes.jpg",
+      "materials": "Colored pencil"
     }
   ]
 }

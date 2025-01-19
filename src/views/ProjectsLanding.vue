@@ -28,8 +28,6 @@ export default {
         }
     }
 }
-
-
 </script>
 
 <template>
@@ -37,11 +35,11 @@ export default {
         <div v-if="projectType === 'music'">
             <MusicView :audioData=catDetails />
         </div>
-        <!-- <div v-if="projectType === 'visual'"> -->
-        <div class="projects-artThumbnails images-item" v-for="item in catDetails" :key="item.img_path">
-            <ProjectItem v-on:click="openModal(item)" :item=item />
+        <div v-if="projectType === 'visual'">
+            <div class="projects-artThumbnails images-item" v-for="item in catDetails" :key="item.img_path">
+                <ProjectItem v-on:click="openModal(item)" :item=item />
+            </div>
         </div>
-        <!-- </div> -->
         <div v-if="projectType === 'video'">
             <VideoView />
         </div>

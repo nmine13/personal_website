@@ -23,7 +23,7 @@ const getGutter = () => {
     if (window.innerWidth <= 900) {
         return 10
     }
-    return 25
+    return 20
 }
 const packeryObj = (imgContainer) => {
     return new Packery(imgContainer, {

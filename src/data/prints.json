@@ -4,23 +4,44 @@
   "items": [
     {
       "title": "Stained Glass",
-      "img_path": "/prints/stained_glass_print.jpg",
+      "img_path": "/prints/stained_glass.jpg",
       "year": 2023,
-      "materials": "Ink"
+      "materials": "Ink on paper"
     },
     {
-      "title": "Spine series",
-      "img_path": "/prints/spinal_destination.jpg",
+      "title": "Disc Triptych",
+      "img_path": "/prints/disc_triptych.jpg",
       "dimensions": "",
       "year": 2021,
-      "materials": "Ink"
+      "materials": "Ink on paper"
     },
     {
       "title": "Winter in Atwood",
       "img_path": "/prints/winter_in_atwood.jpg",
       "dimensions": "",
       "year": 2024,
-      "materials": "Ink"
+      "materials": "Ink on paper"
+    },
+    {
+      "title": "Conservatory",
+      "img_path": "/prints/conservatory.jpg",
+      "dimensions": "",
+      "year": 2024,
+      "materials": "Ink on paper"
+    },
+    {
+      "title": "Vermont",
+      "img_path": "/prints/vermont.jpg",
+      "dimensions": "",
+      "year": 2024,
+      "materials": "Ink on paper"
+    },
+    {
+      "title": "Refracted Mums",
+      "img_path": "/prints/refracted_mums.jpg",
+      "dimensions": "",
+      "year": 2024,
+      "materials": "Ink on paper"
     }
   ]
 }

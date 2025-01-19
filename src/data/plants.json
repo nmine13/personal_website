@@ -4,7 +4,7 @@
   "items": [
     {
       "img_path": "/plants/alex_bday_arrangement.jpg",
-      "title": "Alex's Birthday",
+      "title": "Alex's Birthday Present",
       "materials": "Live flowers, vessels",
       "year": 2023
     },
@@ -16,13 +16,13 @@
     },
     {
       "img_path": "/plants/evening_flowers.jpg",
-      "title": "Evening",
+      "title": "Evening assemblage",
       "materials": "Live flowers, vessels",
       "year": 2023
     },
     {
       "img_path": "/plants/Flower1.jpg",
-      "title": "Flower 1",
+      "title": "Homemade Flower #1",
       "materials": "Organic and synthetic plant material",
       "year": 2023
     },
@@ -34,13 +34,13 @@
     },
     {
       "img_path": "/plants/minimalist_arrangement.jpg",
-      "title": "Minimalist",
+      "title": "Minimalist arrangement",
       "materials": "Live flowers, vessels",
       "year": 2023
     },
     {
       "img_path": "/plants/kanzashi_golden.jpg",
-      "title": "Kanzashi",
+      "title": "Kanzashi hair comb",
       "materials": "Fabric, hair comb, twigs",
       "year": 2023
     }
