@@ -17,7 +17,7 @@ export default {
 
 <style scoped>
 .item {
-    margin-top: 2rem;
+    margin: 1rem 0.4rem;
     display: flex;
     position: relative;
 }

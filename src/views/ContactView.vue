@@ -5,19 +5,21 @@ import InstaIcon from '../components/icons/IconInstagram.vue'
 </script>
 
 <template>
-    <ContactItem linkUrl="https://www.linkedin.com/in/naomi-mine/">
-        <template #icon>
-            <LinkedIcon />
-        </template>
-    </ContactItem>
-    <ContactItem linkUrl="https://www.instagram.com/naomi.mine/">
-        <template #icon>
-            <InstaIcon />
-        </template>
-    </ContactItem>
-    <div class="contact-website"><a target="_blank"
-            href="https://ischool.wisc.edu/blog/staff/mine-naomi/">ischool.wisc.edu/blog/staff/mine-naomi/</a></div>
-    <div class="contact-email-address">naomi {dot} mine {at} gmail {dot} com</div>
+    <div class="contact-wrapper">
+        <div class="contact-item-wrapper">
+            <ContactItem linkUrl="https://www.linkedin.com/in/naomi-mine/">
+                <template #icon>
+                    <LinkedIcon />
+                </template>
+            </ContactItem>
+            <ContactItem linkUrl="https://www.instagram.com/naomi.mine/">
+                <template #icon>
+                    <InstaIcon />
+                </template>
+            </ContactItem>
+        </div>
+        <div class="contact-email-address">naomi {dot} mine {at} gmail {dot} com</div>
+    </div>
 </template>
 <style lang="scss" scoped>
 @import "../styles/main.scss";
@@ -25,6 +27,8 @@ import InstaIcon from '../components/icons/IconInstagram.vue'
 .contact {
     &-wrapper {
         margin: 20px auto;
+        text-align: center;
+
     }
 
     &-links-text {
@@ -40,6 +44,12 @@ import InstaIcon from '../components/icons/IconInstagram.vue'
     &-website {
         text-decoration: underline;
         margin-bottom: 10px;
+    }
+
+    &-item-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     @include breakpoint(tablet-landscape) {

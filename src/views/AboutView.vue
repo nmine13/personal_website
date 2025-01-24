@@ -22,7 +22,7 @@
         my pursuit of graduate studies. My unique collection of professional and intellectual experiences continually
         inform my academic work and my art.</p>
       <div class="resume-wrapper">
-        <a class="resume-download" href="../assets/Mine_CV.pdf" download>Download CV</a>
+        <a class="resume-download" href="/Mine_CV.pdf" src="/Mine_CV.pdf" download>Download CV</a>
       </div>
     </div>
   </div>
