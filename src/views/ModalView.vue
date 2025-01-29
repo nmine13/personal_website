@@ -54,8 +54,8 @@ const closeModal = (e) => {
             <!-- <div class="modal-content-item" v-else> -->
             <div class="modal-content-wrapper">
                 <img class="modal-image" alt="" :src="getImageSource().img_path" />
-                <div>{{ getImageSource().title }}</div>
-                <div>{{ getImageSource().materials }}</div>
+                <div class="modal-image-title">{{ getImageSource().title }}</div>
+                <div class="modal-image-materials">{{ getImageSource().materials }}</div>
             </div>
 
             <!-- <div class="modal-image-details">
@@ -76,7 +76,7 @@ const closeModal = (e) => {
 </template>
 
 <style lang="scss" scoped>
-// @import '../../assets/styles/main.scss';
+@import '../styles/main.scss';
 
 .modal {
     &-overlay {
@@ -125,10 +125,7 @@ const closeModal = (e) => {
         max-width: 83vw;
         max-height: 75vh;
 
-        &-details {
-            line-height: 1.6;
-            margin-top: 10px;
-        }
+        &-materials {}
 
         &-title {
             font-size: 24px;
@@ -138,22 +135,19 @@ const closeModal = (e) => {
             }
         }
 
-        //         @include breakpoint(tablet-portrait) {
-        //             &-details {
-        //                 font-size: 14px;
-        //             }
+        @include breakpoint(tablet-portrait) {
+            &-details {
+                font-size: 14px;
+            }
 
-        //             &-title {
-        //                 font-size: 20px;
+            &-title {
+                font-size: 20px;
 
-        //                 span {
-        //                     font-size: 14px;
-        //                 }
-        //             }
-        //         }
+                span {
+                    font-size: 14px;
+                }
+            }
+        }
     }
 }
-
-
-
-// }</style>
+</style>

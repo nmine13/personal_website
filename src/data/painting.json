@@ -20,7 +20,7 @@
       "title": "Wood Painting",
       "img_path": "/painting/wood_painting.jpg",
       "dimensions": "",
-      "year": 2023,
+      "year": 2022,
       "materials": "Henna, acrylic on canvas"
     },
     {
@@ -31,10 +31,17 @@
       "materials": "Acrylic on canvas"
     },
     {
+      "title": "Dwelling",
+      "img_path": "/painting/dwelling.jpg",
+      "dimensions": "",
+      "year": 2015,
+      "materials": "Oil on canvas"
+    },
+    {
       "title": "Gray painting",
       "img_path": "/painting/greypainting.jpg",
       "dimensions": "",
-      "year": 2023,
+      "year": 2019,
       "materials": "Oil on canvas"
     }
   ]

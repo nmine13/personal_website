@@ -18,6 +18,10 @@ export default {
                 v-bind:class="{ activeCat: activeCat === 'paintings' }">paintings</router-link>
         </div>
         <div class="project-category">
+            <router-link :to="{ hash: '#prints' }"
+                v-bind:class="{ activeCat: activeCat === 'prints' }">prints</router-link>
+        </div>
+        <div class="project-category">
             <router-link :to="{ hash: '#collage' }" v-bind:class="{ activeCat: activeCat === 'collage' }">
                 collage</router-link>
         </div>
@@ -29,10 +33,6 @@ export default {
             <router-link :to="{ hash: '#fabric' }" v-bind:class="{ activeCat: activeCat === 'fabric' }">textile &
                 fiber</router-link>
         </div> -->
-        <div class="project-category">
-            <router-link :to="{ hash: '#prints' }"
-                v-bind:class="{ activeCat: activeCat === 'prints' }">prints</router-link>
-        </div>
         <div class="project-category">
             <router-link :to="{ hash: '#music' }"
                 v-bind:class="{ activeCat: activeCat === 'music' }">music</router-link>
