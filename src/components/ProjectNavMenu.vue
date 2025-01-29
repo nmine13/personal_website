@@ -23,7 +23,7 @@ export default {
         </div>
         <div class="project-category">
             <router-link :to="{ hash: '#collage' }" v-bind:class="{ activeCat: activeCat === 'collage' }">
-                collage</router-link>
+                mixed media</router-link>
         </div>
         <div class="project-category">
             <router-link :to="{ hash: '#plants' }"
