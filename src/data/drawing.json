@@ -22,13 +22,6 @@
       "materials": "Pen"
     },
     {
-      "title": "Fruit in Bra",
-      "img_path": "/drawing_painting/fruitbra1.jpg",
-      "dimensions": "",
-      "year": 2016,
-      "materials": "Chalk pastel"
-    },
-    {
       "title": "Roses Study",
       "img_path": "/drawing/roses_study.jpg",
       "dimensions": "",
@@ -53,6 +46,13 @@
       "title": "Hydrangeas",
       "img_path": "/drawing/the_hydrangeas_have_eyes.jpg",
       "materials": "Colored pencil"
+    },
+    {
+      "title": "Fruit in Bra",
+      "img_path": "/drawing/fruitbra1.jpg",
+      "dimensions": "",
+      "year": 2016,
+      "materials": "Chalk pastel"
     }
   ]
 }
