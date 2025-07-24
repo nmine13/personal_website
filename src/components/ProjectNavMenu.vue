@@ -86,6 +86,16 @@ export default {
 
     @include breakpoint(tablet-portrait) {
         &-category {
+            font-size: 16px;
+        }
+
+        &-nav {
+            margin-bottom: 15px;
+        }
+    }
+
+    @include breakpoint(mobile) {
+        &-category {
             font-size: 14px;
         }
 

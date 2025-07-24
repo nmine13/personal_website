@@ -86,9 +86,14 @@ onUpdated(async () => {
 </template>
 
 <style scoped lang="scss">
+@import '../styles/main.scss';
 .projects {
     &-wrapper {
         display: flex;
+
+        @include breakpoint(tablet-landscape) {
+            display: block
+        }
     }
 }
 </style>

@@ -48,14 +48,22 @@ export default {
 
 
 <style lang="scss" scoped>
+@import '../styles/main.scss';
 .projects {
-    &-artThumbnail {
+    &-artThumbnails {
         display: flex;
+        @include breakpoint(tablet-landscape) {
+            display: block;
+            width: 100%;
+        }
     }
 }
 
 .images-wrapper {
     width: 75%;
+            @include breakpoint(tablet-landscape) {
+            width: 100%
+        }
 }
 
 /* @import '../assets/styles/main.scss'; */
